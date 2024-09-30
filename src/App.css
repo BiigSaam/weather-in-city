@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  background-color: #b6b4b4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 750px;
+  padding: 10px;
+}
+
+@media (max-width: 400px) {
+  .App {
+    width: 90%;
+    padding: 5px;
+  }
+}
