@@ -49,7 +49,7 @@ const Weather = () => {
 
     useEffect(() => {
         fetchWeather();
-    }, []);
+    }, [fetchWeather]);
 
     const handleSearch = (event) => {
         event.preventDefault();
